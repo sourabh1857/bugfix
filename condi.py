@@ -2,7 +2,13 @@
 
 a=3
 b=2
-if a > b:
+c=3
+d=5
+if a < b:
   print("i am able")
+elif a == d:
+  print("out")
+elif d < c:
+  print("not out")
 else:
   print("not able")
